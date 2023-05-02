@@ -2,7 +2,7 @@
   "name": "youtube-clone",
   "version": "0.1.0",
   "private": false,
-  "homepage": "http://farheenshaikh40.github.io/youtube-clone", 
+  "homepage": "https://farheenshaikh40.github.io/youtube-clone", 
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
     "@tailwindcss/line-clamp": "^0.4.4",
