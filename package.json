@@ -1,7 +1,7 @@
 {
   "name": "youtube-clone",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "http://farheenshaikh40.github.io/youtube-clone", 
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
