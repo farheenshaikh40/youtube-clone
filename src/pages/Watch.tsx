@@ -54,10 +54,10 @@ export default function Watch() {
           </div>
           <div className="flex w-full" style={{ height: "92.5vh" }}>
             <div className="flex gap-y-10 gap-x-5 p-7 mx-20 mr-0 w-full overflow-auto">
-              <div style={{ maxWidth: "800px" }}>
+              <div className="w-2/3">
                 <div>
                   <iframe
-                    width="800"
+                    style={{width:"100%"}}
                     height="502"
                     src={`https://www.youtube.com/embed/${id}?autoplay=1`}
                     title="YouTube video player"
@@ -158,7 +158,7 @@ export default function Watch() {
                   </div>
                 </div>
               </div>
-              <div className="mr-24 flex flex-col gap-3">
+              <div className="w-1/3 mr-24 flex flex-col gap-3">
                 {getRecommendedVideos.length &&
                   recommendedVideos.map((item) => {
                     return <WatchCard data={item} key={item.videoId} />;
